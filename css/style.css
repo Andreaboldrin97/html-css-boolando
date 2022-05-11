@@ -41,6 +41,7 @@ header{
 .banner{
     display: inline-block;
     position: relative;
+    z-index: 999;
     bottom: 70px;
 }
 .sustainability{
@@ -65,15 +66,26 @@ header{
     background-color: white;
     padding: 10px;
     position: absolute;
+    z-index: 999;
     top: 5px;
     right: 0;
-}
-.card:hover .heart{
-    color: red;
 }
 .discount{
     color: red;
 }
 .price{
     text-decoration: line-through;
+}
+/*classi hover*/
+
+.card:hover .heart{
+    color: red;
+}
+.img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card:hover .img-hover{
+    z-index: -1;
 }
