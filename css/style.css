@@ -12,10 +12,10 @@
     justify-content: space-between;
     align-content: center;
 }
-nav ul{
+ul{
     list-style: none;
 }
-li a{
+a{
     text-decoration: none;
     margin: 0 10px;
     color: white;
@@ -88,4 +88,11 @@ header{
 }
 .card:hover .img-hover{
     z-index: -1;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+    padding: 8px;
 }
